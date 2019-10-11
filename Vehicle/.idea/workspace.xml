@@ -2,11 +2,20 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="Vehicle:war exploded" />
+      <artifact name="vehicle:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a88ee956-e621-4332-a3c2-5b853099a077" name="Default Changelist" comment="" />
+    <list default="true" id="a88ee956-e621-4332-a3c2-5b853099a077" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../RestPrimer/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RestPrimer/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../RestPrimer/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RestPrimer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../RestPrimer/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../RestPrimer/RestPrimer.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vehicle.iml" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,6 +29,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -28,11 +40,12 @@
     </option>
   </component>
   <component name="ProjectId" id="1RjqW0RstnYVv4z7x8OetulSbee" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/at/htl/vehicle" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../1920-sew" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -57,7 +70,7 @@
       <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/vehicle/" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
-        <artifact name="Vehicle:war exploded">
+        <artifact name="vehicle:war exploded">
           <settings />
         </artifact>
       </deployment>
@@ -71,7 +84,7 @@
       </server-settings>
       <predefined_log_file enabled="true" id="JBoss" />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="49643" />
+        <option name="DEBUG_PORT" value="57856" />
       </RunnerSettings>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
         <option name="USE_ENV_VARIABLES" value="true" />
@@ -121,7 +134,7 @@
       <method v="2">
         <option name="Make" enabled="true" />
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="Vehicle:war exploded" />
+          <artifact name="vehicle:war exploded" />
         </option>
       </method>
     </configuration>
@@ -137,10 +150,26 @@
       <option name="presentableId" value="Default" />
       <updated>1570190880907</updated>
       <workItem from="1570190884602" duration="3404000" />
+      <workItem from="1570357478557" duration="888000" />
+      <workItem from="1570435586824" duration="273000" />
+      <workItem from="1570790209701" duration="1155000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
