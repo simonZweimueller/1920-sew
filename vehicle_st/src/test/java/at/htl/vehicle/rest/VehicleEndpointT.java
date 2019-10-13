@@ -28,6 +28,7 @@ public class VehicleEndpointT {
         assertThat(response.getStatus(), is(200));
         String payload = response.readEntity(String.class);
         System.out.println("payload = " + payload);
-
     }
+
+
 }
