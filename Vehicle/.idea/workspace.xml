@@ -6,10 +6,9 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a88ee956-e621-4332-a3c2-5b853099a077" name="Default Changelist" comment="">
+    <list default="true" id="a88ee956-e621-4332-a3c2-5b853099a077" name="Default Changelist" comment="added servlet function">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/at/htl/vehicle/model/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/at/htl/vehicle/model/Vehicle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/at/htl/vehicle/rest/VehicleEndpoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/at/htl/vehicle/rest/VehicleEndpoint.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -40,7 +39,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/at/htl/vehicle" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Restprimer_st" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../02-assignment-create-unit-tests-for-vehicle-simonZweimueller/vehicle_st" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -149,6 +148,7 @@
       <workItem from="1570435586824" duration="273000" />
       <workItem from="1570790209701" duration="1155000" />
       <workItem from="1570791839791" duration="2568000" />
+      <workItem from="1570963977038" duration="247000" />
     </task>
     <task id="LOCAL-00001" summary="created servlet">
       <created>1570791966686</created>
