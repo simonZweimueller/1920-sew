@@ -6,7 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a88ee956-e621-4332-a3c2-5b853099a077" name="Default Changelist" comment="added servlet function">
+    <list default="true" id="a88ee956-e621-4332-a3c2-5b853099a077" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/at/htl/vehicle/rest/VehicleEndpoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/at/htl/vehicle/rest/VehicleEndpoint.java" afterDir="false" />
     </list>
@@ -148,7 +148,7 @@
       <workItem from="1570435586824" duration="273000" />
       <workItem from="1570790209701" duration="1155000" />
       <workItem from="1570791839791" duration="2568000" />
-      <workItem from="1570963977038" duration="247000" />
+      <workItem from="1570963977038" duration="882000" />
     </task>
     <task id="LOCAL-00001" summary="created servlet">
       <created>1570791966686</created>
@@ -164,7 +164,14 @@
       <option name="project" value="LOCAL" />
       <updated>1570793141539</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="added post and delete">
+      <created>1570964321946</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1570964321946</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -186,6 +193,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="created servlet" />
     <MESSAGE value="added servlet function" />
-    <option name="LAST_COMMIT_MESSAGE" value="added servlet function" />
+    <MESSAGE value="added post and delete" />
+    <option name="LAST_COMMIT_MESSAGE" value="added post and delete" />
   </component>
 </project>

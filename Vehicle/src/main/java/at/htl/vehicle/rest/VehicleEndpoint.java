@@ -14,7 +14,7 @@ public class VehicleEndpoint {
     @Path("{id}")
     @Produces({MediaType.APPLICATION_JSON, MediaType.TEXT_PLAIN})
     public Vehicle find(@PathParam("id") long id) {
-        return new Vehicle("Opel " + id, "Commodere");
+        return new Vehicle("Opel " + id, "Commodore");
     }
 
     @GET
