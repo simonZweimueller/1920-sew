@@ -7,14 +7,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0ef24752-7c36-4748-9ccf-54b717c263dc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Vehicle/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../JpaSeDemo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JpaSeDemo/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RestPrimer.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Vehicle/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Vehicle/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Vehicle/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Vehicle/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Vehicle/Vehicle.iml" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,7 +39,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Vehicle" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -215,6 +210,7 @@
       <workItem from="1570357488168" duration="2014000" />
       <workItem from="1570432615855" duration="1936000" />
       <workItem from="1570791779156" duration="41000" />
+      <workItem from="1571400539631" duration="18000" />
     </task>
     <servers />
   </component>
