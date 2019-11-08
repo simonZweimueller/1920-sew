@@ -1,0 +1,15 @@
+### Send GET request for all PerformHobbies
+GET http://localhost:8080/personjakartajpa/api
+Accept: application/json
+
+###
+
+GET http://localhost:8080/personjakartajpa/api/all
+Accept: application/json
+
+###
+
+GET http://localhost:8080/personjakartajpa/api/Hansi
+Accept: application/json
+
+###
