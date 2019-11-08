@@ -7,9 +7,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0ef24752-7c36-4748-9ccf-54b717c263dc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../JpaSeDemo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JpaSeDemo/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Vehicle/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Vehicle/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PersonJakartaJpa/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../PersonJakartaJpa/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PersonJakartaJpa/src/main/java/at/htl/person/model/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/../PersonJakartaJpa/src/main/java/at/htl/person/model/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../PersonJakartaJpa/src/main/java/at/htl/person/rest/PersonEndpoint.java" beforeDir="false" afterPath="$PROJECT_DIR$/../PersonJakartaJpa/src/main/java/at/htl/person/rest/PersonEndpoint.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -211,6 +211,7 @@
       <workItem from="1570432615855" duration="1936000" />
       <workItem from="1570791779156" duration="41000" />
       <workItem from="1571400539631" duration="18000" />
+      <workItem from="1573222475928" duration="5000" />
     </task>
     <servers />
   </component>
