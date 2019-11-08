@@ -1,14 +1,17 @@
 package at.htl.person.model;
 
-import javax.persistence.Entity;
-import javax.persistence.Id;
-import javax.persistence.Table;
+import javax.persistence.*;
+import javax.transaction.Transactional;
 
 @Entity
 @Table(name = "MY_PERSON")
+@NamedQueries({
+        @NamedQuery(name = "Person.findAll", query = "select p from Person p"),
+        @NamedQuery(name = "Person.findByName", query = "select p from Person p where p.name = :NAME")
+})
 public class Person {
 
-    @Id
+    @Id  @GeneratedValue(strategy = GenerationType.IDENTITY)
     Long id;
     String name;
     String city;
