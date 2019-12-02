@@ -7,7 +7,7 @@ import java.util.List;
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.mockito.Mockito.*;
 
-public class Classroom {
+public class ClassroomTest {
 
     @Test
     void test001() {
@@ -18,9 +18,9 @@ public class Classroom {
 
         // act - when
         classroom.addX("IrfanView");
-
+        classroom.addX("IrfanView");
 
         // assert - then
-        assertThat(verify(classroom.students, times(1)).add("IrfanView")).isTrue();
+        verify(classroom.students, times(2)).add("IrfanView");
     }
 }
