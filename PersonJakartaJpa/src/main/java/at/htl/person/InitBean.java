@@ -42,5 +42,13 @@ public class InitBean {
                 em.find(Person.class, 1L)
         ));
 
+        Person chris = new Person("Chrisi", "Ansfelden");
+        Hobby hobbyVomChrisi = new Hobby("Schwimmen");
+        PerformsHobby pf = new PerformsHobby(hobbyVomChrisi, chris);
+
+        em.persist(chris);
+        //chris = em.merge(chris);
+        em.persist(hobbyVomChrisi);
+        em.persist(pf);
     }
 }
