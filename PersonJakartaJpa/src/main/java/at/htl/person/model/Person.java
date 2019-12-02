@@ -2,6 +2,8 @@ package at.htl.person.model;
 
 import javax.persistence.*;
 import javax.transaction.Transactional;
+import java.util.LinkedList;
+import java.util.List;
 
 @Entity
 @Table(name = "MY_PERSON")
@@ -16,7 +18,11 @@ public class Person {
     String name;
     String city;
 
+    @OneToMany(mappedBy = "person",cascade = {CascadeType.PERSIST, CascadeType.REFRESH, CascadeType.MERGE})
+    private List<PerformsHobby> hobbies;
+
     public Person(String name, String city) {
+        hobbies = new LinkedList<>();
         this.name = name;
         this.city = city;
     }
@@ -48,9 +54,20 @@ public class Person {
 //        this.id = id;
 //    }
 
+    public List<PerformsHobby> getHobbies() {
+        return hobbies;
+    }
+
+    public void setHobbies(List<PerformsHobby> hobbies) {
+        this.hobbies = hobbies;
+    }
 
     @Override
     public String toString() {
         return String.format("%d: %s (%s)", id, name, city);
+    }
+
+    public void addHobby(PerformsHobby performsHobby) {
+        hobbies.add(performsHobby);
     }
 }
