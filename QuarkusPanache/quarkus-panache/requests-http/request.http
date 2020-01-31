@@ -16,3 +16,7 @@ Content-Type: application/json
 GET localhost:8080/person
 
 ###
+
+GET localhost:8080/openapi
+
+###
