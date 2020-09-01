@@ -1,0 +1,61 @@
+POST http://localhost:8080/tag/Hauptspeisen
+//Authorization: Basic max passme
+
+###
+
+POST http://localhost:8080/tag/Nachspeisen
+//Authorization: Basic max passme
+
+###
+
+DELETE http://localhost:8080/tag/Hauptspeisen
+Authorization: Basic max passme
+
+
+###
+
+POST http://localhost:8080/dish
+Authorization: Basic max passme
+Content-Type: application/json
+
+{
+  "name":"a",
+  "description":"b",
+  "timeMinutes": 25,
+  "procedure": "c",
+  "imageUrl": "d"
+}
+
+###
+
+GET http://localhost:8080/dish
+
+###
+
+POST http://localhost:8080/dish
+//Authorization: Basic max passme
+Content-Type: application/json
+
+{
+  "name":"Bauernkotelett",
+  "description":"Bauernkotelett ist ein Rezept in dem ein Schweinekotelett einmal anders gemacht wird.",
+  "timeMinutes": 90,
+  "procedure": "Die Koteletts von beiden Seiten salzen und pfeffern. In heißen Öl anbraten und danach in eine Auflaufform legen. Die Zwiebel, Paprika, Lauch und Frankfurter in kleine Stücke schneiden.In einem Topf die Zwiebel in Öl anbraten und danach Paprika, Lauch, Frankfurter und Mais dazu geben. Mit Salz, Pfeffer und Knoblauch würzen. Die Mischung für ein paar Minuten im Topf andünsten und dann über das Fleisch gießen. In die Auflaufform die Rindsuppe gießen und für 35 Minuten bei 180 Grad dünsten lassen. Etwas Margarine in Flocken über die Koteletts streuen und die in Scheiben geschnittenen Erdäpfel darauf legen. Bei 180 Grad ca. 15 Minuten lang fertig backen.",
+  "imageUrl": "https://www.gutekueche.at/img/rezept/8316/bauernkotelett.jpg",
+  "ingredients": [
+    {"name": "Schweinekoteletts", "amount": 4, "unit": "Stk"},
+    {"name": "Paprika", "amount": 2, "unit": "Stk"}
+  ]
+}
+
+###
+
+GET http://localhost:8080/dish/Bauernkotelett/Hauptspeisen
+//Authorization: Basic max passme
+
+###
+
+GET http://localhost:8080/dish/Hauptspeisen
+//Authorization: Basic max passme
+
+###
