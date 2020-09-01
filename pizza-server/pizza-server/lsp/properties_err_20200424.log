@@ -1,0 +1,410 @@
+Apr. 24, 2020 3:54:43 NACHM. com.redhat.quarkus.ls.QuarkusLanguageServer initialize
+INFORMATION: Initializing Quarkus server 0.0.4-20191120-1547 with C:\Users\simon\AppData\Local\JetBrains\Toolbox\apps\IDEA-U\ch-0\193.5233.102\jbr
+Apr. 24, 2020 3:56:00 NACHM. org.eclipse.lsp4j.jsonrpc.RemoteEndpoint logIssues
+WARNUNG: Issue found in NotificationMessage: Message could not be parsed.
+com.google.gson.stream.MalformedJsonException: Use JsonReader.setLenient(true) to accept malformed JSON at line 1 column 349 path $
+	at com.google.gson.stream.JsonReader.syntaxError(JsonReader.java:1568)
+	at com.google.gson.stream.JsonReader.checkLenient(JsonReader.java:1409)
+	at com.google.gson.stream.JsonReader.doPeek(JsonReader.java:542)
+	at com.google.gson.stream.JsonReader.peek(JsonReader.java:425)
+	at org.eclipse.lsp4j.jsonrpc.json.MessageJsonHandler.parseMessage(MessageJsonHandler.java:124)
+	at org.eclipse.lsp4j.jsonrpc.json.MessageJsonHandler.parseMessage(MessageJsonHandler.java:114)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:193)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+Apr. 24, 2020 3:56:00 NACHM. org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer fireError
+SCHWERWIEGEND: Missing header Content-Length in input "ontent-Length: 203
+
+"
+java.lang.IllegalStateException: Missing header Content-Length in input "ontent-Length: 203
+
+"
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:91)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+Apr. 24, 2020 3:56:00 NACHM. org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer fireError
+SCHWERWIEGEND: Missing header Content-Length in input "{"jsonrpc":"2.0","method":"textDocument/willSave","params":{"textDocument":{"uri":"file:///D:/Schule/Sew/4klasse/angular/pizza-server/pizza-server/src/main/resources/application.properties"},"reason":1}}Content-Length: 229
+
+"
+java.lang.IllegalStateException: Missing header Content-Length in input "{"jsonrpc":"2.0","method":"textDocument/willSave","params":{"textDocument":{"uri":"file:///D:/Schule/Sew/4klasse/angular/pizza-server/pizza-server/src/main/resources/application.properties"},"reason":1}}Content-Length: 229
+
+"
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:91)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+Apr. 24, 2020 3:56:05 NACHM. org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer fireError
+SCHWERWIEGEND: Missing header Content-Length in input "{"jsonrpc":"2.0","method":"textDocument/didSave","params":{"textDocument":{"uri":"file:///D:/Schule/Sew/4klasse/angular/pizza-server/pizza-server/src/main/resources/application.properties"},"text":"quarkus.http.cors\u003dfalse"}}Content-Length: 203
+
+"
+java.lang.IllegalStateException: Missing header Content-Length in input "{"jsonrpc":"2.0","method":"textDocument/didSave","params":{"textDocument":{"uri":"file:///D:/Schule/Sew/4klasse/angular/pizza-server/pizza-server/src/main/resources/application.properties"},"text":"quarkus.http.cors\u003dfalse"}}Content-Length: 203
+
+"
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:91)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+Apr. 24, 2020 3:56:56 NACHM. org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer fireError
+SCHWERWIEGEND: Missing header Content-Length in input "{"jsonrpc":"2.0","method":"textDocument/willSave","params":{"textDocument":{"uri":"file:///D:/Schule/Sew/4klasse/angular/pizza-server/pizza-server/src/main/resources/application.properties"},"reason":1}}Content-Length: 235
+
+"
+java.lang.IllegalStateException: Missing header Content-Length in input "{"jsonrpc":"2.0","method":"textDocument/willSave","params":{"textDocument":{"uri":"file:///D:/Schule/Sew/4klasse/angular/pizza-server/pizza-server/src/main/resources/application.properties"},"reason":1}}Content-Length: 235
+
+"
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:91)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+Apr. 24, 2020 3:56:56 NACHM. org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer fireError
+SCHWERWIEGEND: Missing header Content-Length in input "{"jsonrpc":"2.0","id":"15","method":"textDocument/hover","params":{"textDocument":{"uri":"file:///D:/Schule/Sew/4klasse/angular/pizza-server/pizza-server/src/main/resources/application.properties"},"position":{"line":0,"character":2}}}Content-Length: 597
+
+"
+java.lang.IllegalStateException: Missing header Content-Length in input "{"jsonrpc":"2.0","id":"15","method":"textDocument/hover","params":{"textDocument":{"uri":"file:///D:/Schule/Sew/4klasse/angular/pizza-server/pizza-server/src/main/resources/application.properties"},"position":{"line":0,"character":2}}}Content-Length: 597
+
+"
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:91)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+Apr. 24, 2020 3:56:56 NACHM. org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer fireError
+SCHWERWIEGEND: Missing header Content-Length in input "{"jsonrpc":"2.0","method":"textDocument/didChange","params":{"textDocument":{"version":56,"uri":"file:///D:/Schule/Sew/4klasse/angular/pizza-server/pizza-server/src/main/resources/application.properties"},"contentChanges":[{"range":{"start":{"line":0,"character":18},"end":{"line":0,"character":23}},"rangeLength":236,"text":"true\nquarkus.http.cors.origins\u003dhttp://foo.com,http://www.bar.io\nquarkus.http.cors.methods\u003dGET,PUT,POST\nquarkus.http.cors.headers\u003dX-Custom\nquarkus.http.cors.exposed-headers\u003dContent-Disposition\nquarkus.http.cors.access-control-max-age\u003d24H"}]}}Content-Length: 203
+
+"
+java.lang.IllegalStateException: Missing header Content-Length in input "{"jsonrpc":"2.0","method":"textDocument/didChange","params":{"textDocument":{"version":56,"uri":"file:///D:/Schule/Sew/4klasse/angular/pizza-server/pizza-server/src/main/resources/application.properties"},"contentChanges":[{"range":{"start":{"line":0,"character":18},"end":{"line":0,"character":23}},"rangeLength":236,"text":"true\nquarkus.http.cors.origins\u003dhttp://foo.com,http://www.bar.io\nquarkus.http.cors.methods\u003dGET,PUT,POST\nquarkus.http.cors.headers\u003dX-Custom\nquarkus.http.cors.exposed-headers\u003dContent-Disposition\nquarkus.http.cors.access-control-max-age\u003d24H"}]}}Content-Length: 203
+
+"
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:91)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+Apr. 24, 2020 3:56:56 NACHM. org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer fireError
+SCHWERWIEGEND: Missing header Content-Length in input "{"jsonrpc":"2.0","method":"textDocument/willSave","params":{"textDocument":{"uri":"file:///D:/Schule/Sew/4klasse/angular/pizza-server/pizza-server/src/main/resources/application.properties"},"reason":1}}Content-Length: 203
+
+"
+java.lang.IllegalStateException: Missing header Content-Length in input "{"jsonrpc":"2.0","method":"textDocument/willSave","params":{"textDocument":{"uri":"file:///D:/Schule/Sew/4klasse/angular/pizza-server/pizza-server/src/main/resources/application.properties"},"reason":1}}Content-Length: 203
+
+"
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:91)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+Apr. 24, 2020 3:56:57 NACHM. org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer fireError
+SCHWERWIEGEND: Missing header Content-Length in input "{"jsonrpc":"2.0","method":"textDocument/willSave","params":{"textDocument":{"uri":"file:///D:/Schule/Sew/4klasse/angular/pizza-server/pizza-server/src/main/resources/application.properties"},"reason":1}}Content-Length: 490
+
+"
+java.lang.IllegalStateException: Missing header Content-Length in input "{"jsonrpc":"2.0","method":"textDocument/willSave","params":{"textDocument":{"uri":"file:///D:/Schule/Sew/4klasse/angular/pizza-server/pizza-server/src/main/resources/application.properties"},"reason":1}}Content-Length: 490
+
+"
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:91)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+Apr. 24, 2020 3:56:57 NACHM. org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer fireError
+SCHWERWIEGEND: Missing header Content-Length in input "{"jsonrpc":"2.0","method":"textDocument/didSave","params":{"textDocument":{"uri":"file:///D:/Schule/Sew/4klasse/angular/pizza-server/pizza-server/src/main/resources/application.properties"},"text":"quarkus.http.cors\u003dtrue\nquarkus.http.cors.origins\u003dhttp://foo.com,http://www.bar.io\nquarkus.http.cors.methods\u003dGET,PUT,POST\nquarkus.http.cors.headers\u003dX-Custom\nquarkus.http.cors.exposed-headers\u003dContent-Disposition\nquarkus.http.cors.access-control-max-age\u003d24H"}}Content-Length: 186
+
+"
+java.lang.IllegalStateException: Missing header Content-Length in input "{"jsonrpc":"2.0","method":"textDocument/didSave","params":{"textDocument":{"uri":"file:///D:/Schule/Sew/4klasse/angular/pizza-server/pizza-server/src/main/resources/application.properties"},"text":"quarkus.http.cors\u003dtrue\nquarkus.http.cors.origins\u003dhttp://foo.com,http://www.bar.io\nquarkus.http.cors.methods\u003dGET,PUT,POST\nquarkus.http.cors.headers\u003dX-Custom\nquarkus.http.cors.exposed-headers\u003dContent-Disposition\nquarkus.http.cors.access-control-max-age\u003d24H"}}Content-Length: 186
+
+"
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:91)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+Apr. 24, 2020 3:57:11 NACHM. org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer fireError
+SCHWERWIEGEND: Missing header Content-Length in input "{"jsonrpc":"2.0","method":"workspace/didChangeWatchedFiles","params":{"changes":[{"uri":"file:///D:/Schule/Sew/4klasse/angular/pizza-server/pizza-server/.idea/workspace.xml","type":2}]}}Content-Length: 203
+
+"
+java.lang.IllegalStateException: Missing header Content-Length in input "{"jsonrpc":"2.0","method":"workspace/didChangeWatchedFiles","params":{"changes":[{"uri":"file:///D:/Schule/Sew/4klasse/angular/pizza-server/pizza-server/.idea/workspace.xml","type":2}]}}Content-Length: 203
+
+"
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:91)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+Apr. 24, 2020 3:57:11 NACHM. org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer fireError
+SCHWERWIEGEND: Missing header Content-Length in input "{"jsonrpc":"2.0","method":"textDocument/willSave","params":{"textDocument":{"uri":"file:///D:/Schule/Sew/4klasse/angular/pizza-server/pizza-server/src/main/resources/application.properties"},"reason":1}}Content-Length: 186
+
+"
+java.lang.IllegalStateException: Missing header Content-Length in input "{"jsonrpc":"2.0","method":"textDocument/willSave","params":{"textDocument":{"uri":"file:///D:/Schule/Sew/4klasse/angular/pizza-server/pizza-server/src/main/resources/application.properties"},"reason":1}}Content-Length: 186
+
+"
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:91)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+Apr. 24, 2020 3:57:13 NACHM. org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer fireError
+SCHWERWIEGEND: Missing header Content-Length in input "{"jsonrpc":"2.0","method":"workspace/didChangeWatchedFiles","params":{"changes":[{"uri":"file:///D:/Schule/Sew/4klasse/angular/pizza-server/pizza-server/.idea/workspace.xml","type":2}]}}Content-Length: 203
+
+"
+java.lang.IllegalStateException: Missing header Content-Length in input "{"jsonrpc":"2.0","method":"workspace/didChangeWatchedFiles","params":{"changes":[{"uri":"file:///D:/Schule/Sew/4klasse/angular/pizza-server/pizza-server/.idea/workspace.xml","type":2}]}}Content-Length: 203
+
+"
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:91)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+Apr. 24, 2020 3:58:32 NACHM. org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer fireError
+SCHWERWIEGEND: Missing header Content-Length in input "{"jsonrpc":"2.0","method":"textDocument/willSave","params":{"textDocument":{"uri":"file:///D:/Schule/Sew/4klasse/angular/pizza-server/pizza-server/src/main/resources/application.properties"},"reason":1}}Content-Length: 203
+
+"
+java.lang.IllegalStateException: Missing header Content-Length in input "{"jsonrpc":"2.0","method":"textDocument/willSave","params":{"textDocument":{"uri":"file:///D:/Schule/Sew/4klasse/angular/pizza-server/pizza-server/src/main/resources/application.properties"},"reason":1}}Content-Length: 203
+
+"
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:91)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+Apr. 24, 2020 3:59:01 NACHM. org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer fireError
+SCHWERWIEGEND: Missing header Content-Length in input "{"jsonrpc":"2.0","method":"textDocument/willSave","params":{"textDocument":{"uri":"file:///D:/Schule/Sew/4klasse/angular/pizza-server/pizza-server/src/main/resources/application.properties"},"reason":1}}Content-Length: 328
+
+"
+java.lang.IllegalStateException: Missing header Content-Length in input "{"jsonrpc":"2.0","method":"textDocument/willSave","params":{"textDocument":{"uri":"file:///D:/Schule/Sew/4klasse/angular/pizza-server/pizza-server/src/main/resources/application.properties"},"reason":1}}Content-Length: 328
+
+"
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:91)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+Apr. 24, 2020 3:59:02 NACHM. org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer fireError
+SCHWERWIEGEND: Missing header Content-Length in input "{"jsonrpc":"2.0","method":"textDocument/didChange","params":{"textDocument":{"version":57,"uri":"file:///D:/Schule/Sew/4klasse/angular/pizza-server/pizza-server/src/main/resources/application.properties"},"contentChanges":[{"range":{"start":{"line":0,"character":0},"end":{"line":5,"character":44}},"rangeLength":0,"text":""}]}}Content-Length: 355
+
+"
+java.lang.IllegalStateException: Missing header Content-Length in input "{"jsonrpc":"2.0","method":"textDocument/didChange","params":{"textDocument":{"version":57,"uri":"file:///D:/Schule/Sew/4klasse/angular/pizza-server/pizza-server/src/main/resources/application.properties"},"contentChanges":[{"range":{"start":{"line":0,"character":0},"end":{"line":5,"character":44}},"rangeLength":0,"text":""}]}}Content-Length: 355
+
+"
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:91)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+Apr. 24, 2020 3:59:02 NACHM. org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer fireError
+SCHWERWIEGEND: Missing header Content-Length in input "{"jsonrpc":"2.0","method":"textDocument/didChange","params":{"textDocument":{"version":58,"uri":"file:///D:/Schule/Sew/4klasse/angular/pizza-server/pizza-server/src/main/resources/application.properties"},"contentChanges":[{"range":{"start":{"line":0,"character":0},"end":{"line":0,"character":0}},"rangeLength":0,"text":"quarkus.http.cors\u003dtrue"}]}}Content-Length: 203
+
+"
+java.lang.IllegalStateException: Missing header Content-Length in input "{"jsonrpc":"2.0","method":"textDocument/didChange","params":{"textDocument":{"version":58,"uri":"file:///D:/Schule/Sew/4klasse/angular/pizza-server/pizza-server/src/main/resources/application.properties"},"contentChanges":[{"range":{"start":{"line":0,"character":0},"end":{"line":0,"character":0}},"rangeLength":0,"text":"quarkus.http.cors\u003dtrue"}]}}Content-Length: 203
+
+"
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:91)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+Apr. 24, 2020 3:59:02 NACHM. org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer fireError
+SCHWERWIEGEND: Missing header Content-Length in input "{"jsonrpc":"2.0","method":"textDocument/willSave","params":{"textDocument":{"uri":"file:///D:/Schule/Sew/4klasse/angular/pizza-server/pizza-server/src/main/resources/application.properties"},"reason":1}}Content-Length: 203
+
+"
+java.lang.IllegalStateException: Missing header Content-Length in input "{"jsonrpc":"2.0","method":"textDocument/willSave","params":{"textDocument":{"uri":"file:///D:/Schule/Sew/4klasse/angular/pizza-server/pizza-server/src/main/resources/application.properties"},"reason":1}}Content-Length: 203
+
+"
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:91)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+Apr. 24, 2020 3:59:02 NACHM. org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer fireError
+SCHWERWIEGEND: Missing header Content-Length in input "{"jsonrpc":"2.0","method":"textDocument/willSave","params":{"textDocument":{"uri":"file:///D:/Schule/Sew/4klasse/angular/pizza-server/pizza-server/src/main/resources/application.properties"},"reason":1}}Content-Length: 228
+
+"
+java.lang.IllegalStateException: Missing header Content-Length in input "{"jsonrpc":"2.0","method":"textDocument/willSave","params":{"textDocument":{"uri":"file:///D:/Schule/Sew/4klasse/angular/pizza-server/pizza-server/src/main/resources/application.properties"},"reason":1}}Content-Length: 228
+
+"
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:91)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+Apr. 24, 2020 3:59:02 NACHM. org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer fireError
+SCHWERWIEGEND: Missing header Content-Length in input "{"jsonrpc":"2.0","method":"textDocument/didSave","params":{"textDocument":{"uri":"file:///D:/Schule/Sew/4klasse/angular/pizza-server/pizza-server/src/main/resources/application.properties"},"text":"quarkus.http.cors\u003dtrue"}}Content-Length: 186
+
+"
+java.lang.IllegalStateException: Missing header Content-Length in input "{"jsonrpc":"2.0","method":"textDocument/didSave","params":{"textDocument":{"uri":"file:///D:/Schule/Sew/4klasse/angular/pizza-server/pizza-server/src/main/resources/application.properties"},"text":"quarkus.http.cors\u003dtrue"}}Content-Length: 186
+
+"
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:91)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+Apr. 24, 2020 3:59:05 NACHM. org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer fireError
+SCHWERWIEGEND: Missing header Content-Length in input "{"jsonrpc":"2.0","method":"workspace/didChangeWatchedFiles","params":{"changes":[{"uri":"file:///D:/Schule/Sew/4klasse/angular/pizza-server/pizza-server/.idea/workspace.xml","type":2}]}}Content-Length: 203
+
+"
+java.lang.IllegalStateException: Missing header Content-Length in input "{"jsonrpc":"2.0","method":"workspace/didChangeWatchedFiles","params":{"changes":[{"uri":"file:///D:/Schule/Sew/4klasse/angular/pizza-server/pizza-server/.idea/workspace.xml","type":2}]}}Content-Length: 203
+
+"
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:91)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+Apr. 24, 2020 3:59:05 NACHM. org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer fireError
+SCHWERWIEGEND: Missing header Content-Length in input "{"jsonrpc":"2.0","method":"textDocument/willSave","params":{"textDocument":{"uri":"file:///D:/Schule/Sew/4klasse/angular/pizza-server/pizza-server/src/main/resources/application.properties"},"reason":1}}Content-Length: 186
+
+"
+java.lang.IllegalStateException: Missing header Content-Length in input "{"jsonrpc":"2.0","method":"textDocument/willSave","params":{"textDocument":{"uri":"file:///D:/Schule/Sew/4klasse/angular/pizza-server/pizza-server/src/main/resources/application.properties"},"reason":1}}Content-Length: 186
+
+"
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:91)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+Apr. 24, 2020 3:59:06 NACHM. org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer fireError
+SCHWERWIEGEND: Missing header Content-Length in input "{"jsonrpc":"2.0","method":"workspace/didChangeWatchedFiles","params":{"changes":[{"uri":"file:///D:/Schule/Sew/4klasse/angular/pizza-server/pizza-server/.idea/workspace.xml","type":2}]}}Content-Length: 203
+
+"
+java.lang.IllegalStateException: Missing header Content-Length in input "{"jsonrpc":"2.0","method":"workspace/didChangeWatchedFiles","params":{"changes":[{"uri":"file:///D:/Schule/Sew/4klasse/angular/pizza-server/pizza-server/.idea/workspace.xml","type":2}]}}Content-Length: 203
+
+"
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:91)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+Apr. 24, 2020 4:10:59 NACHM. org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer fireError
+SCHWERWIEGEND: Missing header Content-Length in input "{"jsonrpc":"2.0","method":"textDocument/willSave","params":{"textDocument":{"uri":"file:///D:/Schule/Sew/4klasse/angular/pizza-server/pizza-server/src/main/resources/application.properties"},"reason":1}}Content-Length: 203
+
+"
+java.lang.IllegalStateException: Missing header Content-Length in input "{"jsonrpc":"2.0","method":"textDocument/willSave","params":{"textDocument":{"uri":"file:///D:/Schule/Sew/4klasse/angular/pizza-server/pizza-server/src/main/resources/application.properties"},"reason":1}}Content-Length: 203
+
+"
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:91)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+Apr. 24, 2020 4:11:06 NACHM. org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer fireError
+SCHWERWIEGEND: Missing header Content-Length in input "{"jsonrpc":"2.0","method":"textDocument/willSave","params":{"textDocument":{"uri":"file:///D:/Schule/Sew/4klasse/angular/pizza-server/pizza-server/src/main/resources/application.properties"},"reason":1}}Content-Length: 186
+
+"
+java.lang.IllegalStateException: Missing header Content-Length in input "{"jsonrpc":"2.0","method":"textDocument/willSave","params":{"textDocument":{"uri":"file:///D:/Schule/Sew/4klasse/angular/pizza-server/pizza-server/src/main/resources/application.properties"},"reason":1}}Content-Length: 186
+
+"
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:91)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+Apr. 24, 2020 4:14:35 NACHM. org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer fireError
+SCHWERWIEGEND: Missing header Content-Length in input "{"jsonrpc":"2.0","method":"workspace/didChangeWatchedFiles","params":{"changes":[{"uri":"file:///D:/Schule/Sew/4klasse/angular/pizza-server/pizza-server/.idea/workspace.xml","type":2}]}}Content-Length: 61
+
+"
+java.lang.IllegalStateException: Missing header Content-Length in input "{"jsonrpc":"2.0","method":"workspace/didChangeWatchedFiles","params":{"changes":[{"uri":"file:///D:/Schule/Sew/4klasse/angular/pizza-server/pizza-server/.idea/workspace.xml","type":2}]}}Content-Length: 61
+
+"
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:91)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+Apr. 24, 2020 4:14:35 NACHM. org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer fireError
+SCHWERWIEGEND: Missing header Content-Length in input "{"jsonrpc":"2.0","id":"16","method":"shutdown","params":null}Content-Length: 192
+
+"
+java.lang.IllegalStateException: Missing header Content-Length in input "{"jsonrpc":"2.0","id":"16","method":"shutdown","params":null}Content-Length: 192
+
+"
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:91)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
